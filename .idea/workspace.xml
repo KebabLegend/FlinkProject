@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a653ef2d-42b4-4da9-a678-c54208c7ad65" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Scala Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1bifdSNlW5b73TPDd3HVY8bdkUW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration name="StreamingJob" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="org.myorg.quickstart.StreamingJob" />
+      <module name="quickstart" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="org.myorg.quickstart.StreamingJob" />
+      <module name="quickstart" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a653ef2d-42b4-4da9-a678-c54208c7ad65" name="Default Changelist" comment="" />
+      <created>1589119921642</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589119921642</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="457" y="193" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1591345569360">
+      <screen x="0" y="23" width="1440" height="819" />
+    </state>
+    <state x="457" y="193" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.1440.819@0.23.1440.819" timestamp="1591345569360" />
+    <state x="293" y="104" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592060769165">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state x="293" y="104" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.816@0.23.1440.816" timestamp="1589120581353" />
+    <state x="293" y="104" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.821@0.23.1440.821" timestamp="1592060769165" />
+    <state x="514" y="353" width="415" height="159" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog" timestamp="1589120531288">
+      <screen x="0" y="23" width="1440" height="816" />
+    </state>
+    <state x="514" y="353" width="415" height="159" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog/0.23.1440.816@0.23.1440.816" timestamp="1589120531288" />
+    <state x="521" y="131" key="#com.intellij.ide.util.MemberChooser" timestamp="1591122180039">
+      <screen x="0" y="23" width="1440" height="819" />
+    </state>
+    <state x="521" y="131" key="#com.intellij.ide.util.MemberChooser/0.23.1440.819@0.23.1440.819" timestamp="1591122180039" />
+    <state x="457" y="185" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591255975788">
+      <screen x="0" y="23" width="1440" height="819" />
+    </state>
+    <state x="457" y="185" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.819@0.23.1440.819" timestamp="1591255975788" />
+    <state x="100" y="123" width="1239" height="616" key="DiffContextDialog" timestamp="1591256002439">
+      <screen x="0" y="23" width="1440" height="819" />
+    </state>
+    <state x="100" y="123" width="1239" height="616" key="DiffContextDialog/0.23.1440.819@0.23.1440.819" timestamp="1591256002439" />
+    <state width="1435" height="219" key="GridCell.Tab.0.bottom" timestamp="1592059697951">
+      <screen x="0" y="23" width="1440" height="816" />
+    </state>
+    <state width="1435" height="219" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1592059697951" />
+    <state width="1435" height="219" key="GridCell.Tab.0.bottom/0.23.1440.819@0.23.1440.819" timestamp="1592059159992" />
+    <state width="1435" height="219" key="GridCell.Tab.0.center" timestamp="1592059697950">
+      <screen x="0" y="23" width="1440" height="816" />
+    </state>
+    <state width="1435" height="219" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1592059697950" />
+    <state width="1435" height="219" key="GridCell.Tab.0.center/0.23.1440.819@0.23.1440.819" timestamp="1592059159984" />
+    <state width="1435" height="219" key="GridCell.Tab.0.left" timestamp="1592059697950">
+      <screen x="0" y="23" width="1440" height="816" />
+    </state>
+    <state width="1435" height="219" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1592059697950" />
+    <state width="1435" height="219" key="GridCell.Tab.0.left/0.23.1440.819@0.23.1440.819" timestamp="1592059159983" />
+    <state width="1435" height="219" key="GridCell.Tab.0.right" timestamp="1592059697950">
+      <screen x="0" y="23" width="1440" height="816" />
+    </state>
+    <state width="1435" height="219" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1592059697950" />
+    <state width="1435" height="219" key="GridCell.Tab.0.right/0.23.1440.819@0.23.1440.819" timestamp="1592059159991" />
+    <state x="221" y="70" key="SettingsEditor" timestamp="1589120252963">
+      <screen x="0" y="23" width="1440" height="816" />
+    </state>
+    <state x="221" y="70" key="SettingsEditor/0.23.1440.816@0.23.1440.816" timestamp="1589120252963" />
+    <state x="384" y="166" width="670" height="676" key="search.everywhere.popup" timestamp="1591261902167">
+      <screen x="0" y="23" width="1440" height="819" />
+    </state>
+    <state x="384" y="166" width="670" height="676" key="search.everywhere.popup/0.23.1440.819@0.23.1440.819" timestamp="1591261902167" />
+  </component>
+</project>
