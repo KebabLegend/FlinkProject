@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a653ef2d-42b4-4da9-a678-c54208c7ad65" name="Default Changelist" comment="" />
+    <list default="true" id="a653ef2d-42b4-4da9-a678-c54208c7ad65" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/anomalie_avg_td/2020-06-13--16/.part-0-0.inprogress.07919fa5-df86-4160-9d30-4f018ee282b0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/anomalie_avg_td/2020-06-13--16/.part-1-0.inprogress.858cf6d7-3624-4e6f-a47f-312f3138604a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/anomalie_avg_td/2020-06-13--16/.part-3-0.inprogress.d26198db-3085-40cc-a16f-7f1eb3143749" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/org/myorg/quickstart/Anomalies.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/org/myorg/quickstart/Anomalies.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/org/myorg/quickstart/Statistics.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/org/myorg/quickstart/Statistics.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/org/myorg/quickstart/StreamingJob.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/org/myorg/quickstart/StreamingJob.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Anomalies$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Anomalies$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/KafkaStringSchema$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/KafkaStringSchema$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anonfun$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anonfun$12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anonfun$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anonfun$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/StreamingJob$$anon$2$$anon$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/StreamingJob$$anon$2$$anon$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/StreamingJob$$anon$2$$anonfun$createSerializer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/StreamingJob$$anon$2$$anonfun$createSerializer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/StreamingJob$$anon$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/StreamingJob$$anon$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/StreamingJob$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/StreamingJob$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/StreamingJob$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/StreamingJob$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/StreamingJob.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/StreamingJob.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,10 +36,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1bifdSNlW5b73TPDd3HVY8bdkUW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -88,26 +111,34 @@
       <screen x="0" y="23" width="1440" height="819" />
     </state>
     <state x="100" y="123" width="1239" height="616" key="DiffContextDialog/0.23.1440.819@0.23.1440.819" timestamp="1591256002439" />
-    <state width="1435" height="219" key="GridCell.Tab.0.bottom" timestamp="1592059697951">
+    <state x="588" y="335" width="385" height="236" key="Github.ShareDialog" timestamp="1592061115792">
       <screen x="0" y="23" width="1440" height="816" />
+    </state>
+    <state x="588" y="335" width="385" height="236" key="Github.ShareDialog/0.23.1440.816@0.23.1440.816" timestamp="1592061115792" />
+    <state x="404" y="143" key="Github.UntrackedFilesDialog" timestamp="1592061129510">
+      <screen x="0" y="23" width="1440" height="816" />
+    </state>
+    <state x="404" y="143" key="Github.UntrackedFilesDialog/0.23.1440.816@0.23.1440.816" timestamp="1592061129510" />
+    <state width="1440" height="257" key="GridCell.Tab.0.bottom" timestamp="1592932691166">
+      <screen x="0" y="23" width="1440" height="819" />
     </state>
     <state width="1435" height="219" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1592059697951" />
-    <state width="1435" height="219" key="GridCell.Tab.0.bottom/0.23.1440.819@0.23.1440.819" timestamp="1592059159992" />
-    <state width="1435" height="219" key="GridCell.Tab.0.center" timestamp="1592059697950">
-      <screen x="0" y="23" width="1440" height="816" />
+    <state width="1440" height="257" key="GridCell.Tab.0.bottom/0.23.1440.819@0.23.1440.819" timestamp="1592932691166" />
+    <state width="1440" height="257" key="GridCell.Tab.0.center" timestamp="1592932691165">
+      <screen x="0" y="23" width="1440" height="819" />
     </state>
     <state width="1435" height="219" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1592059697950" />
-    <state width="1435" height="219" key="GridCell.Tab.0.center/0.23.1440.819@0.23.1440.819" timestamp="1592059159984" />
-    <state width="1435" height="219" key="GridCell.Tab.0.left" timestamp="1592059697950">
-      <screen x="0" y="23" width="1440" height="816" />
+    <state width="1440" height="257" key="GridCell.Tab.0.center/0.23.1440.819@0.23.1440.819" timestamp="1592932691165" />
+    <state width="1440" height="257" key="GridCell.Tab.0.left" timestamp="1592932691164">
+      <screen x="0" y="23" width="1440" height="819" />
     </state>
     <state width="1435" height="219" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1592059697950" />
-    <state width="1435" height="219" key="GridCell.Tab.0.left/0.23.1440.819@0.23.1440.819" timestamp="1592059159983" />
-    <state width="1435" height="219" key="GridCell.Tab.0.right" timestamp="1592059697950">
-      <screen x="0" y="23" width="1440" height="816" />
+    <state width="1440" height="257" key="GridCell.Tab.0.left/0.23.1440.819@0.23.1440.819" timestamp="1592932691164" />
+    <state width="1440" height="257" key="GridCell.Tab.0.right" timestamp="1592932691165">
+      <screen x="0" y="23" width="1440" height="819" />
     </state>
     <state width="1435" height="219" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1592059697950" />
-    <state width="1435" height="219" key="GridCell.Tab.0.right/0.23.1440.819@0.23.1440.819" timestamp="1592059159991" />
+    <state width="1440" height="257" key="GridCell.Tab.0.right/0.23.1440.819@0.23.1440.819" timestamp="1592932691165" />
     <state x="221" y="70" key="SettingsEditor" timestamp="1589120252963">
       <screen x="0" y="23" width="1440" height="816" />
     </state>

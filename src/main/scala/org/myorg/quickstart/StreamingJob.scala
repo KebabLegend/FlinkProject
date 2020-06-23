@@ -31,9 +31,7 @@ import java.util.concurrent.TimeUnit
 import org.apache.flink.core.fs.Path
 import org.apache.flink.streaming.api.functions.sink.filesystem.StreamingFileSink
 import org.apache.flink.streaming.api.functions.sink.filesystem.rollingpolicies.DefaultRollingPolicy
-import org.apache.flink.streaming.api.functions.timestamps.BoundedOutOfOrdernessTimestampExtractor
 import org.apache.flink.streaming.api.windowing.time.Time
-import org.myorg.quickstart.Statistics
 
 /**
  * Skeleton for a Flink Streaming Job.
@@ -49,9 +47,8 @@ import org.myorg.quickstart.Statistics
  */
 object StreamingJob {
 
-  val window = Time.of(10, TimeUnit.SECONDS)
   val seuil_ctr = 0.3
-  val seuil_avg_time_click = 2
+  val seuil_avg_time_click = 1.5
   val seuil_var_time_click = 1
   val window_size = 600
   val window_slide = 200
@@ -78,7 +75,7 @@ object StreamingJob {
       .assignTimestampsAndWatermarks(new Watermark_generator())
 
     //Calcul du ctr
-    val ctr: DataStream[(String, Double)] = Statistics.ctr_ip(stream_click, window_size, window_slide)
+    val ctr: DataStream[(String, Double)] = Statistics.ctr_uid(stream_click, window_size, window_slide)
     val anomalie_ctr = Anomalies.anomalie_ctr(ctr, seuil_ctr)
     //Creation d'une variable ne comportant que les clicks
     val stream_click_only = stream_click.filter(e => e.eventType == "click")
@@ -87,8 +84,6 @@ object StreamingJob {
 
     val var_time_diff : DataStream[(String, Double)] = Statistics.variance_time_diff(stream_click_only, window_size, window_slide)
     val anomalie_var_td = Anomalies.anomalie_var_time_diff(var_time_diff, seuil_var_time_click)
-
-
 
     val sink_ctr: StreamingFileSink[(String, Double)] = StreamingFileSink
       .forRowFormat(new Path("anomalie_ctr"), new SimpleStringEncoder[(String, Double)]("UTF-8"))
@@ -99,6 +94,7 @@ object StreamingJob {
           .withMaxPartSize(1024 * 1024 * 1024)
           .build())
       .build()
+    anomalie_ctr.addSink(sink_ctr)
 
     val sink_avg_td: StreamingFileSink[(String, Double)] = StreamingFileSink
       .forRowFormat(new Path("anomalie_avg_td"), new SimpleStringEncoder[(String, Double)]("UTF-8"))

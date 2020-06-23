@@ -35,8 +35,8 @@ object Statistics {
   def average_time_diff(lines : DataStream[Event], window_size : Int, window_slide: Int):DataStream[(String,Double)] = {
     // temps moyen entre tous les events de la meme ip
     // lines, groupby ip => list of timestamps (String, String, list[String])
-    val timestamps_by_ip = lines
-      .map(e=>(e.ip,e.timestamp.toString+";"))
+    val timestamps_by_uid = lines
+      .map(e=>(e.uid,e.timestamp.toString+";"))
       .keyBy(0)
       //.window(SlidingProcessingTimeWindows.of(Time.seconds(10), Time.seconds(5)))
 
@@ -54,38 +54,38 @@ object Statistics {
       .map(e=> (e._1,e._2.split(";")))
 
     // from list of timestamps => sort and list of diff
-    val time_diff_by_ip = timestamps_by_ip
+    val time_diff_by_uid = timestamps_by_uid
       .map(e=>(e._1,create_diff_list(e._2)))
 
     // from list of diff => avg of diff
-    val avg_time_diff_by_ip = time_diff_by_ip
+    val avg_time_diff_by_uid = time_diff_by_uid
       .map(e=>(e._1,compute_avg(e._2)))
 
-    avg_time_diff_by_ip
+    avg_time_diff_by_uid
 
   }
 
   def variance_time_diff(lines : DataStream[Event], window_size : Int, window_slide: Int):DataStream[(String,Double)] = {
     // lines, groupby ip => list of timestamps (String, String, list[String])
-    val timestamps_by_ip = lines
-      .map(e=>(e.ip,e.timestamp.toString+";"))
+    val timestamps_by_uid = lines
+      .map(e=>(e.uid,e.timestamp.toString+";"))
       .keyBy(0)
       .timeWindow( Time.seconds(window_size), Time.seconds(window_slide)) //
       .reduce((x,y) => (x._1,x._2.concat(y._2)))
       .map(e=> (e._1,e._2.split(";")))
 
     // from list of timestamps => sort and list of diff
-    val time_diff_by_ip = timestamps_by_ip
+    val time_diff_by_uid = timestamps_by_uid
       .map(e=>(e._1,create_diff_list(e._2)))
 
     // from list of diff => avg of diff
-    val avg_time_diff_by_ip = time_diff_by_ip
+    val avg_time_diff_by_uid = time_diff_by_uid
       .map(e=>(e._1,e._2, compute_avg(e._2)))
 
     // compute variance
-    val variance_diff_by_ip = avg_time_diff_by_ip
+    val variance_diff_by_uid = avg_time_diff_by_uid
       .map(e => (e._1,compute_var(e._2,e._3)))
-        variance_diff_by_ip
+        variance_diff_by_uid
   }
 
   def create_diff_list(list : Array[String]):Array[Int]={
