@@ -1,25 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a653ef2d-42b4-4da9-a678-c54208c7ad65" name="Default Changelist" comment="">
+    <list default="true" id="a653ef2d-42b4-4da9-a678-c54208c7ad65" name="Default Changelist" comment="Assure that 3 outputs works &#10;Todo : Ensure thresholds are meaningful + that 1 click and no display is not a proper anomaly">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anomalie_avg_td/2020-06-13--16/.part-0-0.inprogress.07919fa5-df86-4160-9d30-4f018ee282b0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anomalie_avg_td/2020-06-13--16/.part-1-0.inprogress.858cf6d7-3624-4e6f-a47f-312f3138604a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anomalie_avg_td/2020-06-13--16/.part-3-0.inprogress.d26198db-3085-40cc-a16f-7f1eb3143749" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/org/myorg/quickstart/Anomalies.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/org/myorg/quickstart/Anomalies.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/org/myorg/quickstart/BatchJob.scala" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/org/myorg/quickstart/Statistics.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/org/myorg/quickstart/Statistics.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/org/myorg/quickstart/StreamingJob.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/org/myorg/quickstart/StreamingJob.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/org/myorg/quickstart/Watermark_generator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/org/myorg/quickstart/Watermark_generator.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Anomalies$$anonfun$anomalie_avg_time_diff$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Anomalies$$anonfun$anomalie_avg_time_diff$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Anomalies$$anonfun$anomalie_ctr$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Anomalies$$anonfun$anomalie_ctr$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Anomalies$$anonfun$anomalie_var_time_diff$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Anomalies$$anonfun$anomalie_var_time_diff$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Anomalies$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Anomalies$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Anomalies.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Anomalies.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/BatchJob$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/BatchJob.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/KafkaStringSchema$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/KafkaStringSchema$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anon$14$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anon$14$$anonfun$createSerializer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anon$14.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anon$15$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anon$15$$anonfun$createSerializer$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anon$15.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anon$16$$anon$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anon$16$$anonfun$createSerializer$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anon$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anon$16.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anon$17$$anon$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anon$17$$anonfun$createSerializer$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anon$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anon$17.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anon$18$$anon$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anon$18$$anonfun$createSerializer$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anon$18.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anon$18.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anon$19$$anon$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anon$19$$anonfun$createSerializer$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anon$19.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anon$19.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anon$20$$anon$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anon$20$$anonfun$createSerializer$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anon$20.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anon$20.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anon$21$$anon$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anon$21$$anonfun$createSerializer$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anon$21.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anon$21.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anon$22$$anon$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anon$22$$anonfun$createSerializer$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anon$22.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anon$22.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anon$23$$anon$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anon$23$$anonfun$createSerializer$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anon$23.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anon$23.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anon$24$$anon$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anon$24$$anonfun$createSerializer$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anon$24.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anon$24.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anon$25$$anon$12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anon$25$$anonfun$createSerializer$12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anon$25.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anon$25.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anon$26$$anon$13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anon$26$$anonfun$createSerializer$13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anon$26.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anon$26.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anonfun$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anonfun$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anonfun$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anonfun$11.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anonfun$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anonfun$12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anonfun$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anonfun$13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anonfun$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anonfun$14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anonfun$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anonfun$15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anonfun$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anonfun$16.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anonfun$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anonfun$17.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anonfun$18.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anonfun$18.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anonfun$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anonfun$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anonfun$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anonfun$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anonfun$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anonfun$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anonfun$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anonfun$6.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anonfun$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anonfun$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anonfun$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anonfun$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anonfun$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anonfun$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anonfun$compute_avg$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anonfun$compute_avg$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anonfun$compute_var$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anonfun$compute_var$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anonfun$create_diff_list$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$$anonfun$create_diff_list$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Statistics.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/StreamingJob$$anon$2$$anon$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/StreamingJob$$anon$2$$anon$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/StreamingJob$$anon$2$$anonfun$createSerializer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/StreamingJob$$anon$2$$anonfun$createSerializer$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/StreamingJob$$anon$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/StreamingJob$$anon$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/StreamingJob$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/StreamingJob$$anonfun$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/StreamingJob$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/StreamingJob$.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/StreamingJob.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/StreamingJob.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Watermark_generator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/myorg/quickstart/Watermark_generator.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +166,30 @@
       <option name="presentableId" value="Default" />
       <updated>1589119921642</updated>
     </task>
+    <task id="LOCAL-00001" summary="Assure that 3 outputs works &#10;Todo : Ensure thresholds are meaningful + that 1 click and no display is not a proper anomaly">
+      <created>1592933135911</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592933135911</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Assure that 3 outputs works &#10;Todo : Ensure thresholds are meaningful + that 1 click and no display is not a proper anomaly" />
+    <option name="LAST_COMMIT_MESSAGE" value="Assure that 3 outputs works &#10;Todo : Ensure thresholds are meaningful + that 1 click and no display is not a proper anomaly" />
   </component>
   <component name="WindowStateProjectService">
     <state x="457" y="193" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1591345569360">
@@ -119,30 +225,34 @@
       <screen x="0" y="23" width="1440" height="816" />
     </state>
     <state x="404" y="143" key="Github.UntrackedFilesDialog/0.23.1440.816@0.23.1440.816" timestamp="1592061129510" />
-    <state width="1440" height="257" key="GridCell.Tab.0.bottom" timestamp="1592932691166">
+    <state width="1398" height="261" key="GridCell.Tab.0.bottom" timestamp="1593268956117">
       <screen x="0" y="23" width="1440" height="819" />
     </state>
-    <state width="1435" height="219" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1592059697951" />
-    <state width="1440" height="257" key="GridCell.Tab.0.bottom/0.23.1440.819@0.23.1440.819" timestamp="1592932691166" />
-    <state width="1440" height="257" key="GridCell.Tab.0.center" timestamp="1592932691165">
+    <state width="1398" height="197" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1593265021173" />
+    <state width="1398" height="261" key="GridCell.Tab.0.bottom/0.23.1440.819@0.23.1440.819" timestamp="1593268956117" />
+    <state width="1398" height="261" key="GridCell.Tab.0.center" timestamp="1593268956116">
       <screen x="0" y="23" width="1440" height="819" />
     </state>
-    <state width="1435" height="219" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1592059697950" />
-    <state width="1440" height="257" key="GridCell.Tab.0.center/0.23.1440.819@0.23.1440.819" timestamp="1592932691165" />
-    <state width="1440" height="257" key="GridCell.Tab.0.left" timestamp="1592932691164">
+    <state width="1398" height="197" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1593265021171" />
+    <state width="1398" height="261" key="GridCell.Tab.0.center/0.23.1440.819@0.23.1440.819" timestamp="1593268956116" />
+    <state width="1398" height="261" key="GridCell.Tab.0.left" timestamp="1593268956115">
       <screen x="0" y="23" width="1440" height="819" />
     </state>
-    <state width="1435" height="219" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1592059697950" />
-    <state width="1440" height="257" key="GridCell.Tab.0.left/0.23.1440.819@0.23.1440.819" timestamp="1592932691164" />
-    <state width="1440" height="257" key="GridCell.Tab.0.right" timestamp="1592932691165">
+    <state width="1398" height="197" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1593265021171" />
+    <state width="1398" height="261" key="GridCell.Tab.0.left/0.23.1440.819@0.23.1440.819" timestamp="1593268956115" />
+    <state width="1398" height="261" key="GridCell.Tab.0.right" timestamp="1593268956116">
       <screen x="0" y="23" width="1440" height="819" />
     </state>
-    <state width="1435" height="219" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1592059697950" />
-    <state width="1440" height="257" key="GridCell.Tab.0.right/0.23.1440.819@0.23.1440.819" timestamp="1592932691165" />
+    <state width="1398" height="197" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1593265021173" />
+    <state width="1398" height="261" key="GridCell.Tab.0.right/0.23.1440.819@0.23.1440.819" timestamp="1593268956116" />
     <state x="221" y="70" key="SettingsEditor" timestamp="1589120252963">
       <screen x="0" y="23" width="1440" height="816" />
     </state>
     <state x="221" y="70" key="SettingsEditor/0.23.1440.816@0.23.1440.816" timestamp="1589120252963" />
+    <state x="319" y="171" key="Vcs.Push.Dialog.v2" timestamp="1592933179954">
+      <screen x="0" y="23" width="1440" height="819" />
+    </state>
+    <state x="319" y="171" key="Vcs.Push.Dialog.v2/0.23.1440.819@0.23.1440.819" timestamp="1592933179954" />
     <state x="384" y="166" width="670" height="676" key="search.everywhere.popup" timestamp="1591261902167">
       <screen x="0" y="23" width="1440" height="819" />
     </state>

@@ -4,6 +4,10 @@ import org.apache.flink.streaming.api.functions.AssignerWithPeriodicWatermarks
 import org.apache.flink.streaming.api.watermark.Watermark
 import scala.math.max
 
+/**
+ * This class implements our watermark generator
+ * We pick timestamps in the timestamp field of the event.
+ */
 class Watermark_generator extends AssignerWithPeriodicWatermarks[Event] {
 
   val maxOutOfOrderness = 5000L // 5 seconds
