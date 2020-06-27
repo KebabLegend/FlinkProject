@@ -53,12 +53,6 @@ object StreamingJob {
     properties.setProperty("bootstrap.servers", "localhost:9092")
     properties.setProperty("group.id", "test")
 
-    // set up kafka producer
-    /**val kafkaProducer = new FlinkKafkaProducer011[String](
-      "localhost:9092",
-      "anomalies",
-      new SimpleStringSchema())*/
-
     // Get data from Kafka
     val source_click = new FlinkKafkaConsumer011[Event](List("clicks","displays").asJava, KafkaStringSchema, properties)
     val stream_click = env
